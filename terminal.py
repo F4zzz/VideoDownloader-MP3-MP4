@@ -1,7 +1,6 @@
 from pytube import YouTube
 import moviepy.editor as mp
 import os, time
-user = os.getenv("USERNAME")
 url = input('URL: ')
 ext = input('''[1] MP3
 [2] MP4
